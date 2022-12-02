@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255,239,213);
+}
+
+.Logo{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+   
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20vh 55vh;
+    grid-gap: 1%;
+    margin: 2%;
+    
+}
+
+.container_2 {
+    display: grid;
+
+}
+
+.promo_1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+header > img {
+    display: block;
+    margin: 3vh auto;
+    height: 10vh;
+}
+
+nav {
+    border: 1px;
+    border-style: solid;
+    margin: 1vh 1vw auto 1vw;
+    
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: auto 5vh auto 5vh;
+}
+
+#navopt{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+    color: black;
+    text-decoration: none;
+
+}
+
+.container_2{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+.container_3{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+footer {
+    background-color: rgb(139, 139, 139);
+    height: 20vh;
+    
+    
+}
+.info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+
+}
+
+.footer_image {
+    width: 10vw;
+    margin: 5vh auto auto 10vw;
+}
+
+.footer_image2{
+    width: 12.3vw;
+    margin: 0.1vh auto auto 0.1vw;
+}
+
+.copyright {
+    text-align: end;
+    margin: 8vh 3vw;
+} 
+
+.productstyle{
+    position: relative;
+    border-radius: 3%;
+    background-color: rgb(218, 203, 178);
+    height: 90%;
+    margin: 5% 15% auto 15%;
+    
+}
+
+.productstyle2{
+    position: relative;
+    border-radius: 5%;
+    background-color: rgb(216, 192, 149);
+    height: 90%;
+    margin: 5%;
+    padding-bottom: 5%;
+}
+
+.sminfo {
+    margin-bottom: 5%;
+}
+
+.promostyle{
+    position: relative;
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    margin: auto 5% auto 5%;
+    
+}
+
+.promo_image{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.promo_text_header{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.productstyle:hover{
+    background-color: rgb(212, 204, 191);
+}
+
+.productstyle > img{
+    width: 100%;
+    border-radius: 5% 5% 0 0 ;
+}
+
+.productstyle2 > img{
+    width: 100%;
+    border-radius: 5% 5% 0 0 ;
+}
+
+.productstyle > h2 {
+    text-align: start;
+    margin: auto 1vw auto 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.productstyle2 > h2 {
+    text-align: start;
+    margin: auto 1vw auto 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1vh;
+    color: rgb(68, 68, 63);
+}
+
+.productstyle > p {
+    margin: 2vh 1vw auto 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: black;
+    padding: 3%;
+    border: solid;
+    border-radius: 10px;
+    border: 0ch;
+    
+}
+
+.button:hover {
+    background-color: rgb(111, 145, 240);
+}
+
+#herf {
+    position: absolute;
+    bottom: 2vh;
+    text-align: center;
+    
+}
+
+.rings_name {
+    text-align: center;
+    margin-top: 1vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#herf > a{
+    color: black;
+}
+
+/*  */
+
+.app {
+    display: flex;
+    flex: 1;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+.fieldset {
+    display: flex;
+    width: 480px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-direction: column;
+}
+  
+.label {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+  
+  sup {
+    color: red;
+    top: -2px;
+    font-size: 95%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  input,
+  select {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 32px;
+    padding: 0 8px;
+  }
+  
+  .field {
+    position: relative;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .FieldError {
+    position: absolute;
+    bottom: -6px;
+    color: red;
+    font-size: 12px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .button2 {
+    padding: 12px;
+    width: 240px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: darkblue;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
